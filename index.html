@@ -6,6 +6,7 @@
 		<meta name="color-scheme" content="only light">
 		<title>FizjoAnts</title>
 		<link rel="icon" href="resources/logo.png">
+		<meta property="og:image" content="resources/logo.png" />
 		<link rel="preconnect" href="https://fonts.googleapis.com">
 		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 		<link href="https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,400..700;1,400..700&family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap" rel="stylesheet">
@@ -636,19 +637,32 @@
 					}, 2000);
 
 					setTimeout(() => {
-						splash.style.top = "-100vh"	
+						splash.style.opacity = "0"	
 					}, 2300);
+
+					setTimeout(() => {
+						splash.style.display = "none"	
+					}, 3000);
+
 				});
 
 			})
 
 
 			document.getElementById('card-right').addEventListener('click', function() {
-				document.getElementById('card-right-text').style.display = 'block';
+				if(rightCardExpanded == false){
+					document.getElementById('card-right-text').style.display = 'block';
+				} else {
+					document.getElementById('card-right-text').style.display = 'none';
+				}
 			});
 
 			document.getElementById('card-left').addEventListener('click', function() {
-				document.getElementById('card-left-text').style.display = 'block';
+				if(leftCardExpanded == false){
+					document.getElementById('card-left-text').style.display = 'block';
+				} else {
+					document.getElementById('card-left-text').style.display = 'none';
+				}
 			});		
 
 			let rightCardsIndex = 0;
@@ -661,6 +675,7 @@
 				let currentCard = document.querySelector('#cards-right .card--current') || cards[cards.length - 1];
 
 				function showCard(index) {
+					document.getElementById('card-right-text').style.display = 'none';
 					if(index === cards.length){
 						rightCardsIndex = -1;
 					}
@@ -687,6 +702,7 @@
 							return;
 						}
 
+						rightCardExpanded = false
 						rightCardsIndex +=1;
 						showCard(rightCardsIndex);
 					});
@@ -716,6 +732,7 @@
 				let currentCard = document.querySelector('#cards-left .card--current') || cards[cards.length - 1];
 
 				function showCard(index) {
+					document.getElementById('card-left-text').style.display = 'none';
 					if(index === cards.length){
 						leftCardsIndex = -1;
 					}
@@ -743,6 +760,7 @@
 							return;
 						}
 
+						leftCardExpanded = false
 						leftCardsIndex +=1;
 						showCard(leftCardsIndex);
 					});
