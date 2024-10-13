@@ -1,0 +1,591 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<meta name="color-scheme" content="only light">
+		<title>FizjoAnts</title>
+		<link rel="icon" href="resources/logo.png">
+		<meta property="og:image" content="resources/logo.png" />
+		<link rel="preconnect" href="https://fonts.googleapis.com">
+		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+		<link href="https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,400..700;1,400..700&family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap" rel="stylesheet">
+		<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+		<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+		<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+		<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0" />
+		<link rel="stylesheet" href="style.css">
+	</head>
+	<body>
+		<header>
+			<div id="header-content"> 
+				<img  class="logo" src="resources/logo.png" alt="FizjoANTS Logo"/>
+				<input type="checkbox" id="menu-icon"/>
+				<label for="menu-icon">
+					&#9776; 
+				</label>
+				<nav id="nav">
+					<ul>
+						<li><a class="xm-text" href="#uslugi">Usługi</a></li>
+						<li><a class="xm-text" href="#diagnostyka">Diagnostyka</a></li>
+						<li><a class="xm-text" href="#edukacja">Edukacja</a></li>
+						<li><a class="xm-text" href="#metodyka">Metodyka</a></li>
+						<li><a class="xm-text" href="#galeria">Galeria</a></li>
+						<li><a class="xm-text call-button" href="tel:+48530150933">Zadzwoń</a></li>
+					</ul>
+				</nav>
+			</div>
+		</header>
+		<main>
+			<div class="first-section">
+				<div class="first-section-logo-text">
+					<img  class="big-logo" src="resources/first-section/image44.png" alt="FizjoANTS Logo"/>
+					<div id="about">
+						<input type="checkbox" id="about_control"/>
+						<label class="m-text" for="about_control">
+							O nas	
+						</label>
+						<div class="sm-text" id="about_text">
+							W FizjoANTS wierzymy, że klucz do sukcesu leży w współpracy, precyzji i niesłabnącym zaangażowaniu -
+							wartościach, które przywodzą na myśl zorganizowane i pracowite mrówki.</br></br>
+							Nasza nazwa, FizjoANTS, nie jest przypadkowa. Odzwierciedla naszą filozofię działania, gdzie każdy członek
+							zespołu, niczym mrówka w mrowisku, odgrywa kluczową rolę w budowaniu zdrowia naszych pacjentów.</br></br>
+							W FizjoANTS każdy detal ma znaczenia, a nasza wspólna praca ma na celu zapewnienie opieki na najwyższym
+							poziomie.
+						</div>
+					</div>
+				</div>		
+				<div class="big-img-div">
+					<img class="big-img" src="resources/first-section/img1.jpg"/>
+				</div>
+			</div>
+			<div id="uslugi" class="cards-section">
+				<div class="bookmarks" id="bookmarks-left">
+					<button data-card-index="0">
+						<img  src="resources/cards/terapia_przeciwbolowa.png" alt="Terapia przeciwbólowa"/>
+					</button>
+					<button data-card-index="1">
+						<img  src="resources/cards/bole_glowy.png" alt="Bóle głowy"/>
+					</button>
+					<button data-card-index="2">
+						<img  src="resources/cards/bole_brzucha.png" alt="Bóle brzucha"/>
+					</button>
+					<button data-card-index="3">
+						<img  src="resources/cards/bole_kregoslupa.png" alt="Bóle kręgosłupa"/>
+					</button>
+					<button data-card-index="4">
+						<img  src="resources/cards/bole_stawow.png" alt="Bóle stawów"/>
+					</button>
+					<button data-card-index="10">
+						<img  src="resources/cards/problemy_specjalne.png" alt="Problemy specjalne"/>
+					</button>
+				</div>
+				<div id="cards-left" class="cards">
+					<ul class="cards">
+						<li id="card-left" class="card card2">
+							<div class="card-header">
+								Terapia</br>przeciwbólowa
+							</div>
+							<div id="card-left-text" class="card-hidden-text card-content sm-text">
+								W FizjoANTS traktujemy ból nie tylko jako symptom, ale jako złożony
+								problem wymagający wszechstronnego podejścia.
+								</br>
+								Nasza Terapia Przeciwbólowa opiera się na precyzyjnej diagnozie,
+								której celem jest zrozumienie źródła bólu i jego eliminacja.
+								</br>
+								Zastosowanie indywidualnie dobranych metod terapeutycznych
+								pozwala na skuteczne złagodzenie dolegliwości, przywracając
+								pacjentom komfort życia i pełną sprawność.
+								</br>
+								Dążymy do tego, aby każda interwencja przynosiła nie tylko ulgę, ale i
+								długotrwałe rezultaty.
+							</div>
+						</li>
+						<li class="card card2">
+							<div class="card-header">
+								Bóle głowy
+							</div>
+							<ul>
+								<li> Typu migrenowego</li>
+								<li> Typu napięciowego</li>
+								<li> Pourazowe bóle głowy</li>
+								<li> Stresogenne, stresopochodne</li>
+								<li> Trudne do zdiagnozowania i oporne do leczenia</li>
+							</ul>
+						</li>
+						<li class="card card2">
+							<div class="card-header">
+								Bóle brzucha i klatki piersiowej	
+							</div>
+							<ul>
+								<li>Bolesne miesiączkowanie</li>
+								<li>Ból podczas stosunku</li>
+								<li>Zamostkowe bóle klatki piersiowej</li>
+								<li>Uczucie zatykania w klatce piersiowej oraz trudności z oddychaniem</li>
+							</ul>
+						</li>
+						<li class="card card2">
+							<div class="card-header">
+								Bóle kręgosłupa
+							</div>
+							<ul>
+								<li>Zespoły przeciążeniowo bólowe mięśni szyji i karku</li>
+								<li>Zespoły przeciążeniowo bólowe dolnego odcinka kręgosłupa</li>
+								<li>Lumbago</li>
+								<li>Nerwobóle</li>
+							</ul>
+						</li>
+						<li class="card card2">
+							<div class="card-header">
+								Bóle stawów</br>Barku i ramienia
+							</div>
+							<ul>
+								<li>Bóle spowodowane patologia ortopedyczną </li>
+								<li>Bóle niewiadomego pochodzenia </li>
+							</ul>
+						</li>
+						<li class="card card2">
+							<div class="card-header">
+								Bóle stawów</br>Łokcia i przedramienia
+							</div>
+							<ul>
+								<li>Bóle spowodowane patologia ortopedyczną</li>
+								<li>Bóle niewiadomego pochodzenia</li>
+							</ul>
+						</li>
+						<li class="card card2">
+							<div class="card-header">
+								Bóle stawów</br>Nadgarstka i ręki
+							</div>
+							<ul>
+								<li>Bóle spowodowane patologia ortopedyczną</li>
+								<li>Bóle niewiadomego pochodzenia</li>
+							</ul>
+						</li>
+						<li class="card card2">
+							<div class="card-header">
+								Bóle stawów</br>Biodra, miednicy i uda
+							</div>
+							<ul>
+								<li>Ból w pachwinie</li>
+								<li>Zespół mięśnia gruszkowatego</li>
+								<li>Zespół ciasnoty przedziałów powięziowych</li>
+								<li>Ból mięśniowo- powięziowy dna miednicy</li>
+							</ul>
+						</li>
+						<li class="card card2">
+							<div class="card-header">
+								Bóle stawów</br>Kolana, łydki i piszczeli
+							</div>
+							<ul>
+								<li>Bóle goleni u biegaczy</li>
+								<li>Bóle niewiadomego pochodzenia</li>
+								<li>Bóle spowodowane patologia ortopedyczną</li>
+							</ul>
+						</li>
+						<li class="card card2">
+							<div class="card-header">
+								Bóle stawów</br>Stopy i stawu skokowego
+							</div>
+							<ul>
+								<li>Ból w dole pięty (ostroga piętowa)</li>
+								<li>Ból śródstopia (metatarsalgia)</li>
+								<li>Paluch sztywny (hallux rigidus)</li>
+								<li>Nadwyrężenie pierwszego stawu śródstopiom-paliczkowego (palec boiskowy)</li>
+								<li>Nerwiak Mortona (nerwiak międzypalcowy)</li>
+								<li>Zespół nocnych kurczów łydek</li>
+							</ul>
+						</li>
+						<li class="card card2">
+							<div class="card-header">
+								Problemy specjalne
+							</div>
+							<ul>
+								<li>Blizny, zrosty pooperacyjne i pourazowe</li>
+								<li>Krwiaki i obrzęki limfatyczne</li>
+								<li>Choroby reumatyczne</li>
+								<li>Choroby neurologiczne oraz neurodegeneracyjne</li>
+								<li>Borelioza</li>
+							</ul>
+						</li>
+					</ul>
+				</div>
+				<img id="cards-img" src="resources/cards/image45.png" />
+				<div id="cards-right" class="cards">
+					<ul class="cards">
+						<li id="card-right" class="card card2">
+							<div class="card-header">
+								Rehabilitacja pourazowa
+							</div>
+							<div id="card-right-text" class="card-hidden-text card-content sm-text rehabilitation-text">
+								Rehabilitacja Pourazowa w FizjoANTS to specjalistyczna opieka
+								ukierunkowana na pełne przywrócenie sprawności po przebytych
+								urazach.
+								Nasze podejście jest kompleksowe i zindywidualizowane – zaczynamy
+								od dokładnej diagnostyki, na której opieramy plan leczenia
+								dostosowany do specyficznych potrzeb pacjenta.
+								Praca naszego zespołu skupia się na stopniowym, ale systematycznym
+								przywracaniu funkcji, z naciskiem na długotrwałe utrzymanie
+								osiągniętych efektów.
+								Priorytetem jest nie tylko skuteczna rekonwalescencja, ale również
+								zapobieganie nawrotom i dalsza poprawa jakości życia pacjenta.
+							</div>
+						</li>
+						<li class="card card2">
+							<div class="card-header">
+								Urazy kręgosłupa
+							</div>
+							<ul>
+								<li>Choroby krążka miedzykręgowego</li>
+								<li>Stenoza kręgowa</li>
+								<li>Kręgozmyk</li>
+								<li>Przepuklina i sekwestracja krążka miedzykręgowego</li>
+								<li>Spondyloza lędźwiowa</li>
+								<li>Choroba Scheuermanna</li>
+								<li>Kręcz szyjny</li>
+								<li>„Smagnięcie biczem” czyli Whiplash</li>
+							</ul>
+						</li>
+						<li class="card card2">
+							<div class="card-header">
+								Urazy stawowe</br>Barku i ramienia
+							</div>
+							<ul>
+								<li>Zespół ciasnoty</li>
+								<li>Zapalenie ścięgien stożka rotatorów</li>
+								<li>Uszkodzenie stożka rotatorów</li>
+								<li>Bark zamrożony</li>
+								<li>Stan po artroplastyce stawu ramiennego</li>
+								<li>Uszkodzenie stawu barkowo- obojczykowego</li>
+								<li>Uszkodzenie splotu ramiennego</li>
+								<li>Entezopatie</li>
+								<li>Uszkodzenie obrąbka stawu ramiennego</li>
+								<li>Zespół „strzelającego” barku i „strzelającej” łopatki</li>
+								<li>Dyskineza łopatki</li>
+							</ul>
+						</li>
+						<li class="card card2">
+							<div class="card-header">
+								Urazy stawowe</br>Łokcia i przedramienia
+							</div>
+							<ul>
+								<li>Zapalenie nadkłykcia bocznego i przyśrodkowego ( łokieć tenisisty i łokieć golfisty)</li>
+								<li>Zapalenie głowy kości promieniowej</li>
+								<li>Zapalenie kaletki stawowej wyrostka łokciowego</li>
+								<li>Pourazowe sztywność łokcia</li>
+								<li>Stan po artroplastyce łokcia</li>
+								<li>Stan po złamaniu</li>
+								<li>Stan po zwichnięciu</li>
+								<li>Zapalenie kaletek</li>
+								<li>Entezopatie</li>
+							</ul>
+						</li>
+						<li class="card card2">
+							<div class="card-header">
+								Urazy stawowe</br>Nadgarstka i ręki
+							</div>
+							<ul>
+								<li>Zespół cieśni nadgarstka</li>
+								<li>Palec strzelający (trigger finger)</li>
+								<li>Uszkodzenie ścięgien zginaczy I prostowników</li>
+								<li>Przykurcz Dupuytrena</li>
+								<li>Choroba Quervaina</li>
+								<li>Torbiel galaretowata nadgarstka</li>
+								<li>Stan po złamaniu i zwichnięciu</li>
+							</ul>
+						</li>
+						<li class="card card2">
+							<div class="card-header">
+								Urazy stawowe</br>Biodra, miednicy i uda
+							</div>
+							<ul>
+								<li>Uszkodzenie mięśni kulszowo- goleniowych</li>
+								<li>Nadwyrężenie I stłuczenia mięśnia czworogłowego</li>
+								<li>Zespół „trzaskającego” biodra</li>
+								<li>Zapalenie kaletek (krętarzowej, biodrowo- łonowej, kulszowej)</li>
+							</ul>
+						</li>
+						<li class="card card2">
+							<div class="card-header">
+								Urazy stawowe</br>Kolana
+							</div>
+							<ul>
+								<li>Uszkodzenie przedniego więzadła krzyżowego</li>
+								<li>Uszkodzenie tylnego więzadła krzyżowego</li>
+								<li>Uszkodzenie przyśrodkowego więzadła pobocznego</li>
+								<li>Uszkodzenie łąkotek</li>
+								<li>Choroby stawu rzepkowo- udowego</li>
+								<li>Stan po zabiegach na chrząstce stawowej kolana</li>
+								<li>Zapalenie kaletek</li>
+								<li>Entezopatie</li>
+								<li>Torbiel Bakera</li>
+								<li>Stan po złamaniu rzepki</li>
+								<li>Stan po endoprotezoplastyce</li>
+							</ul>
+						</li>
+						<li class="card card2">
+							<div class="card-header">
+								Urazy stawowe</br>Stopy i stawu skokowego
+							</div>
+							<ul>
+								<li>Nadwyrężenie stawu skokowego</li>
+								<li>Przewlekła niestabilność stawu skokowego (po rekonstrukcji bocznego więzadła stawu skokowego)</li>
+								<li>Skręcenia i niestabilność stawu skokowo- goleniowego</li>
+								<li>Zapalenie kaletek</li>
+								<li>Dysfunkcja ścięgna Achillesa</li>
+								<li>Niewydolność ścięgna mięśnia piszczelowego tylnego</li>
+								<li>Neuropatia nerwu piszczelowego</li>
+								<li>Entezopatia rozcięgna podeszwowego</li>
+								<li>Zespół niespokojnych stóp</li>
+							</ul>
+						</li>
+						<li class="card card2">
+							<div class="card-header">
+								Problemy specjalne
+							</div>
+							<ul>
+								<li>Blizny, zrosty pooperacyjne i pourazowe</li>
+								<li>Stan przed i po operacji</li>
+							</ul>
+						</li>
+					</ul>
+				</div>
+				<div class="bookmarks" id="bookmarks-right">
+					<button data-card-index="0">
+						<img  src="resources/cards/rehabilitacja_pourazowa.png" alt="Rehabilitacja pourazowa"/>
+					</button>
+					<button data-card-index="1">
+						<img  src="resources/cards/urazy_kregoslupa.png" alt="Urazy kręgosłupa"/>
+					</button>
+					<button data-card-index="2">
+						<img  src="resources/cards/urazy_stawowe.png" alt="Urazy stawowe"/>
+					</button>
+					<button data-card-index="8">
+						<img  src="resources/cards/problemy_specjalne.png" alt="Problemy specjalne"/>
+					</button>
+				</div>		
+			</div>
+			<div id="diagnostyka">
+				<div class="section-header">
+					<div class="b-text">Szczegółowa diagnostyka</div>
+					<div class="m-text">Etapy diagnostyki pacjenta</div>
+				</div>
+				<div class="diagnostic-content">
+					<div class="diagnostic-element">
+						<div class="diagnostic-element-header">
+							<img class="diagnostic-element-header-img" src="resources/diagnostic/badanie_podmiotowe.png" />
+							<div class="diagnostic-element-header-text m-text">Badanie</br>podmiotowe</div>
+						</div>
+						<div class="diagnostic-element-content">
+							<ul>
+								<li>Wywiad: Szczegółowe zbieranie informacji o historii choroby pacjenta, dolegliwościach, przebytych
+									urazach i operacjach oraz aktualnych objawach. Ważnym elementem jest również analiza stylu życia
+									pacjenta.
+								</li>
+								<li>Ocena bólu: Dokładny opis lokalizacji, charakteru, natężenia oraz czasu trwania bólu, co pozwala na
+									lepsze zrozumienie problemu pacjenta.</li>
+							</ul>
+						</div>
+					</div>
+					<div class="diagnostic-element">
+						<div class="diagnostic-element-header">
+							<img class="diagnostic-element-header-img" src="resources/diagnostic/badanie_przedmiotowe.png" />
+							<div class="diagnostic-element-header-text m-text">Badanie</br>przedmiotowe</div>
+						</div>
+						<div class="diagnostic-element-content">
+							<ul>
+								<li>Oględziny: Ocena postawy ciała, chodu oraz symetrii mięśni i stawów, w celu wykrycia ewentualnych
+									nieprawidłowości</li>
+								<li>Palpacja: Badanie dotykowe tkanek miękkich, stawów i kości, pozwalające na identyfikację napięć,
+									obrzęków oraz bolesnych miejsc.</li>
+								<li>Ocena zakresu ruchu: Sprawdzenie ruchomości stawów w różnych kierunkach, co pomaga w ocenie
+									funkcjonalności i wykrywaniu ograniczeń ruchowych.</li>
+								<li>Testy specjalne: Wykonywanie specjalistycznych testów oceniających stabilność stawów, siłę mięśniową
+									oraz inne funkcje specyficzne dla danej dolegliwości.</li>
+							</ul>
+						</div>
+					</div>
+					<div class="diagnostic-element">
+						<div class="diagnostic-element-header">
+							<img class="diagnostic-element-header-img" src="resources/diagnostic/badanie_funkcjonalne.png" />
+							<div class="diagnostic-element-header-text m-text">Badanie</br>funkcjonalne</div>
+						</div>
+						<div class="diagnostic-element-content">
+							<ul>
+								<li>
+									Ocena zdolności funkcjonalnych: Analiza wykonywania codziennych czynności oraz aktywności fizycznych,
+									w
+									tym sportowych, w celu oceny ich wpływu na stan zdrowia pacjenta.</li>
+								<li>Testy dynamiczne: Ocena zdolności pacjenta do wykonywania określonych ruchów i aktywności, takich
+									jak
+									chodzenie, wstawanie czy schylanie się, co pomaga w identyfikacji problemów funkcjonalnych.</li>
+							</ul>
+						</div>
+					</div>
+					<div class="diagnostic-element">
+						<div class="diagnostic-element-header">
+							<img class="diagnostic-element-header-img" src="resources/diagnostic/badanie_obrazowe.png" />
+							<div class="diagnostic-element-header-text m-text">Badanie</br>obrazowe</div>
+						</div>
+						<div class="diagnostic-element-content">
+							<ul>
+								<li>
+									Analiza wyników badań obrazowych: Ocena zdjęć rentgenowskich, rezonansu magnetycznego (MRI),
+									tomografii
+									komputerowej (CT) oraz ultrasonografii (USG). Badania te dostarczają szczegółowych informacji na temat
+									strukturalnych i funkcjonalnych zmian w organizmie pacjenta.</li>
+								<li>Integracja wyników: Łączenie informacji uzyskanych z badań obrazowych z wynikami badań
+									przedmiotowych
+									i
+									podmiotowych, co pozwala na postawienie precyzyjnej diagnozy i opracowanie spersonalizowanego planu
+									leczenia.</li>
+							</ul>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div id="edukacja">
+				<div class="section-header">
+					<div class="b-text">Edukacja pacjenta</div>
+				</div>
+				<div class="education-content">
+					<div class="education-element-text education-text1">
+						W FizjoANTS wierzymy, że kluczem do skutecznej rehabilitacji jest
+						pełne zrozumienie przez pacjenta
+						swojego stanu zdrowia i procesu leczenia.
+						<br/><br/>
+						Dlatego dokładnie odpowiadamy na wszystkie pytania
+						pacjentów, rozwiewamy wszelkie wątpliwości i szczegółowo tłumaczymy mechanizmy powstawania
+						urazów oraz dolegliwości bólowych. </div>
+					<img class="education-element-img education-img1" src="resources/education/img1.png"/>
+					<div class="education-element-text education-text2">
+						Wykorzystujemy zaawansowane modele anatomiczne,
+						technologię anatomii 3D oraz specjalistyczne materiały edukacyjne, aby każdy pacjent mógł w pełni
+						zrozumieć swoją sytuację zdrowotną.
+					</div>
+					<img class="education-element-img education-img2" src="resources/education/img2.png"/>
+					<div class="education-element-text education-text3">
+						Uważamy, że dobrze wyedukowany pacjent jest bardziej zaangażowany
+						w proces leczenia, co przekłada się na lepsze wyniki.
+						Im więcej informacji pacjent otrzyma od naszych terapeutów, tym
+						wyższa jest jakość świadczonych usług i efektywność całego procesu rehabilitacji.
+					</div>
+					<img class="education-element-img education-img3" src="resources/education/img3.png"/>
+				</div>
+			</div>
+			<div id="galeria">
+				<div id="galeria-arrow-left" class="galeria-arrow">
+					<img src="resources/gallery/left-arrow.png">
+				</div>
+				<div id="galeria-arrow-right" class="galeria-arrow">
+					<img src="resources/gallery/right-arrow.png">
+				</div>
+				<img class="galeria-img galeria-current-photo" src="resources/gallery/img1.jpg">
+				<img class="galeria-img galeria-right-photo" src="resources/gallery/img2.jpg">
+				<img class="galeria-img" src="resources/gallery/img3.jpg">
+				<img class="galeria-img" src="resources/gallery/img4.jpg">
+				<img class="galeria-img galeria-left-photo" src="resources/gallery/img5.jpg">
+			</div>
+			<div id="metodyka">
+				<div class="section-header">
+					<div class="b-text align-center">Metody rehabilitacji</div>
+					<div class="m-text align-center">Profesjonalne i Specjalistyczne podejście w FizjoANTS</div>
+				</div>
+				<div id="section-methodology-content">
+					<div class="section-methodology-content-text">
+						W FizjoANTS stosujemy holistyczne podejście do rehabilitacji,
+						łącząc różnorodne metody terapeutyczne, które są indywidualnie dostosowywane do stanu zdrowia i specyficznych
+						potrzeb pacjenta. Nasze kompleksowe podejście pozwala nam dostosować terapię do unikalnych wymagań każdego
+						pacjenta, zapewniając najwyższą efektywność leczenia oraz znaczącą poprawę jakości życia.
+						<br /><br />
+						W FizjoANTS wierzymy, że rehabilitacja jest zawsze możliwa –
+						kluczem jest odpowiedni dobór metod terapeutycznych do konkretnego przypadku medycznego. Nasze techniki
+						obejmują
+						zaawansowane metody manualne, kinezyterapię oraz nowoczesne metody fizykoterapii.
+						<br /><br />
+						Kluczowym elementem naszego podejścia jest integracja
+						specjalistycznego masażu leczniczego z indywidualnie dobranym zestawem ćwiczeń rehabilitacyjnych. Dzięki temu
+						możemy zapewnić kompleksową i efektywną terapię dostosowaną do potrzeb każdego pacjenta.
+						<br /><br />
+						Jeśli jesteś pacjentem, którego leczenia nie podjęli się inni
+						fizjoterapeuci, zapraszamy do naszej placówki. Nasz zespół zadba o Ciebie z najwyższą troską i
+						profesjonalizmem,
+						oferując indywidualnie dostosowane plany terapeutyczne, które poprawią Twoje zdrowie oraz komfort życia.
+					</div>
+					<div class="methodology-img">
+						<img src="resources/methodology/img2.jpg" />
+					</div>
+				</div>
+			</div>
+		</main>
+		<footer>
+			<div class="footer-element-socials">
+				<div class="m-text">fizjoANTS</div>
+				<div id="footer-socials">
+					<div class="footer-social">
+						<a href="https://www.facebook.com/fizjoants">
+							<img src="resources/footer/facebook.png" alt="facebook">
+						</a>
+					</div>
+					<div class="footer-social">
+						<a href="https://www.instagram.com/fizjoants">
+							<img src="resources/footer/instagram.png" alt="instagram">
+						</a>
+					</div>
+				</div>
+			</div>
+			<div id="footer-services" class="footer-element">
+				<div class="footer-element-title">Szybka nawigacja</div>
+				<a href="#uslugi">Usługi</a>
+				<a href="#diagnostyka">Diagnostyka</a>
+				<a href="#metodyka">Metodyka</a>
+				<a href="#edukacja">Edukacja</a>
+				<a href="#galeria">Galeria</a>
+				<a href="tel:+48530150933">Zadzwoń</a>
+			</div>
+			<div id="footer-contact">
+				<div class="footer-element-title">Informacje</div>
+				<a class="footer-contact-link" href="tel:+48530150933">
+					<div class="footer-contact-element">
+						<span class="material-symbols-outlined">
+							phone
+						</span>
+						<div>
+							<div class="footer-contact-element-content">
+								+48 530 150 933
+							</div>
+						</div>
+					</div>
+				</a>
+				<a class="footer-contact-link" href="mailto:fizjoants@gmail.com">
+					<div class="footer-contact-element">
+						<span class="material-symbols-outlined">
+							mail
+						</span>
+						<div>
+							<div class="footer-contact-element-content">fizjoants@gmail.com</div>
+						</div>
+					</div>
+				</a>
+				<a class="footer-contact-link" href="https://maps.app.goo.gl/iaoEnL3RBCK76xo17" target="_blank">
+					<div class="footer-contact-element">
+						<span class="material-symbols-outlined">
+							home
+						</span>
+						<div>
+							<div class="footer-contact-element-content">Admirała Józefa Unruga 176, 81-153 Gdynia</div>
+						</div>
+					</div>
+				</a>
+			</div>
+		</footer>
+		<div class="splash">
+			<div class="splash-content">
+				<img id="splash-fizjo" class="splash-text" src="resources/splash/fizjo.png">
+				<img id="splash-ants" class="splash-text" src="resources/splash/ants.png">
+				<img id="splash-logo" class="splash-text" src="resources/splash/antslogo.png">
+			</div>
+		</div>
+		<script type="module" src="/main.js"></script>	
+	</body>
+</html>
